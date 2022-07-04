@@ -1,0 +1,154 @@
+
+.header{
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  z-index: 10;
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 20%);
+}
+
+.headerLeft{
+  flex: 3;
+  cursor: pointer;
+}
+
+.menu{
+  width: 54px;
+  height: 54px;
+  background: #00A2C4;
+  border-radius: 12px;
+  margin-left: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu:hover{
+  background: #00b7c4;
+}
+
+.menuIcon{
+  padding: 16px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.headerRight{
+  flex: 3;
+  display: flex;
+  margin-top: 20px;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+
+}
+.info{
+  margin: 20px 10px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: right;
+  color: #000000;
+}
+.infoNumber{
+  margin-left: 42px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #B9B9B9;
+  margin-top: 5px;
+}
+
+.infoImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.logOutBtn{
+  width: 100px;
+  height: 50px;
+  background: #00A2C4;
+  border-radius: 12px;
+  margin: 10px 10px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.logOutBtn:hover{
+  background: #00b7c4;
+}
+
+.headerCenter{
+  flex: 6;
+  display: flex;
+  justify-items: center;
+}
+
+.headerInput{
+  margin-top: 10px;
+  width: 80%;
+  height: 54px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  border: none;
+}
+
+.header .headerInput:focus{
+  border-color: #00A2C4;
+}
+
+.searchIcon{
+  width: 54px;
+  height: 54px;
+  background: #00A2C4;
+  border-radius: 15px;
+  margin: 12px 12px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.searchIcon:hover{
+  background: #00b7c4;
+}
+
+.line1{
+  border: 1px solid #FFFFFF;
+  margin: 15px 10px;
+}
+
+.line2{
+  border: 1px solid #FFFFFF;
+  margin: 10px;
+}
+
+.reacta1{
+  height: 10px;
+  width: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: -33px 14px;
+}
+.reacta2{
+  height: 10px;
+  width: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 40px 30px;
+}

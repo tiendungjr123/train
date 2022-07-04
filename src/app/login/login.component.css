@@ -1,0 +1,167 @@
+.login{
+  position: relative;
+  top:320px;
+  left: 700px;
+  width: 390px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: #E5E5E5;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.loginTitle{
+  width: 100%;
+  height: 30px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 30px;
+  color: #1A1D1E;
+}
+
+.loginDesc{
+  width: 100%;
+  height: 48px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6A6A6A;
+}
+
+.inputBox{
+  width: 255px;
+  height: 54px;
+  border: none;
+  background: #FFFFFF;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  outline: none;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+
+
+.icon{
+  background: #fff;
+  color: #333;
+  font-size: 15px;
+  height: 54px;
+  padding: 18px 10px 18px 9px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.loginBtn{
+  height: 54px;
+  background: #00A2C4;
+  border-radius: 12px;
+  width: 290px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.loginBtn:hover{
+  background: #00b7c4;
+}
+
+.loginOr{
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.line{
+  width: 20px;
+  height: 0px;
+  border: 2px solid #9E9E9E;
+}
+.lineText{
+  width: 134px;
+  height: 16px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #6A6A6A;
+  margin: -2px 6px;
+}
+
+.loginSocial{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 80px;
+}
+.loginSocialGg{
+  width: 60px;
+  height: 60px;
+  background: #E9F4FF;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.loginSocialFb{
+  width: 60px;
+  height: 60px;
+  background: #4460A0;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.loginSocialFb:hover{
+  background: #25355c;
+}
+
+.loginSocialGg:hover{
+  background: #25355c;
+}
+
+.loginSocialGg .loginIcon{
+  color: red;
+}
+.loginIcon{
+  color: #FFFFFF;
+  font-size: 30px;
+  margin: 13px 0;
+}
+
+.loginText{
+  width: 100%;
+  height: 26px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #6A6A6A;
+}
+
+.loginTextBold{
+  color: #1A1D1E;
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+}

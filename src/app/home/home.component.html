@@ -1,0 +1,24 @@
+
+  <div ngClass="clubsListTitle">
+    <p ngClass="clubsText">List <span>Club</span> </p>
+  </div>
+  <div ngClass="container">
+    <div ngClass="clubList">
+      <div *ngFor="let club of clubs" ngClass="clubs" >
+        <div ngClass="clubsLogo">
+            <div ngClass="logoImg">
+                <img
+                    ngClass="logo"
+                    [src]="imgSrc"
+                />
+            </div>
+        </div>
+          <i ngClass="heartIcon fas fa-heart"></i>
+          <p ngClass="clubsTitle">The new gym</p>
+          <p ngClass="clubsStre">{{club.name}}</p>
+          <p ngClass="clubsPrice">$399.000/m <span>{{club.districtName}}</span></p>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="clubs.length < data.length" (click)="loadMore()" ngClass="load-more"> Load more </div>
+

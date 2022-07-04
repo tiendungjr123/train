@@ -1,0 +1,46 @@
+<div ngClass="login">
+  <p ngClass="loginTitle">Welcome Back!</p>
+  <p ngClass="loginDesc">Fill your details or continue with social media</p>
+  <form [formGroup]= "loginForm" (ngSubmit)="onClickSubmit()">
+      <span ngClass="icon">
+      <i ngClass=" fa fa-envelope"></i>
+      </span>
+      <input
+      ngClass="inputBox" type="text"
+      placeholder="Email Adress" name="username"
+      formControlName="username"
+      />
+      <br />
+      <br />
+      <span ngClass="icon">
+          <i ngClass=" fa fa-lock"></i>
+      </span>
+      <input
+      ngClass="inputBox" type="password"
+      placeholder="Password" formControlName="password"
+      />
+      <button ngClass="loginBtn">
+              LOGIN
+      </button>
+  </form>
+  <div ngClass="loginOr">
+      <div ngClass="line"></div>
+      <span ngClass="lineText">Or Continue with</span>
+      <div ngClass="line"></div>
+  </div>
+  <div ngClass="loginSocial">
+      <div ngClass="loginSocialGg">
+          <i ngClass="loginIcon fab fa-google"></i>
+      </div>
+      <div ngClass="loginSocialFb">
+          <i ngClass="loginIcon fab fa-facebook-f"></i>
+      </div>
+  </div>
+  <div ngClass="loginText">
+      <p>New User?
+          <span ngClass="loginTextBold">
+            Create Account
+          </span>
+      </p>
+  </div>
+</div>
